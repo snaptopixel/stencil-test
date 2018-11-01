@@ -3,6 +3,11 @@
   "private": true,
   "version": "0.0.1",
   "description": "Stencil App Starter",
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run build"
+    }
+  },
   "scripts": {
     "build": "stencil build --prerender",
     "start": "stencil build --dev --watch --serve",
@@ -11,7 +16,8 @@
   },
   "dependencies": {
     "@stencil/core": "~0.15.1",
-    "@stencil/router": "~0.3.0"
+    "@stencil/router": "~0.3.0",
+    "husky": "^1.1.2"
   },
   "repository": {
     "type": "git",
