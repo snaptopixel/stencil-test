@@ -2,12 +2,12 @@
   "namespace": "App",
   "fsNamespace": "app",
   "loader": "../app.js",
-  "core": "app.meofyal9.js",
-  "corePolyfilled": "app.lxuvk3hp.js",
+  "core": "app.gajo9an8.js",
+  "corePolyfilled": "app.s7y4caiz.js",
   "components": {
     "app-home": {
       "bundleIds": {
-        "$": "qtdtiuji"
+        "$": "zywkwlc4"
       },
       "encapsulation": "shadow"
     },
@@ -19,28 +19,28 @@
     },
     "app-root": {
       "bundleIds": {
-        "$": "ypon7jpl"
+        "$": "bivajwft"
       },
       "encapsulation": "shadow"
     },
     "stencil-route": {
       "bundleIds": {
-        "$": "ypon7jpl"
+        "$": "bivajwft"
       }
     },
     "stencil-route-link": {
       "bundleIds": {
-        "$": "qtdtiuji"
+        "$": "zywkwlc4"
       }
     },
     "stencil-route-switch": {
       "bundleIds": {
-        "$": "ypon7jpl"
+        "$": "bivajwft"
       }
     },
     "stencil-router": {
       "bundleIds": {
-        "$": "ypon7jpl"
+        "$": "bivajwft"
       }
     }
   }
