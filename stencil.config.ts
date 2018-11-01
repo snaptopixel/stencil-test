@@ -7,8 +7,8 @@ export const config: Config = {
   outputTargets: [
     {
       type: 'www',
-      baseUrl: '/snaptopixel/stencil-test',
-      resourcesUrl: '/snaptopixel/stencil-test/build/app',
+      baseUrl: '/stencil-test',
+      resourcesUrl: '/stencil-test/build/app/',
       dir: 'docs'
     }
   ]
