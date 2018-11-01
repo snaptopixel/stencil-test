@@ -8,12 +8,6 @@
   Any global CSS variables should also be applied here.
 */
 
-:root {
-  --my-color: red;
-  --my-font: 14px/17px 'Comic Sans MS', Helvetica, Arial;
-}
-
-
 body {
   margin: 0px;
   padding: 0px;

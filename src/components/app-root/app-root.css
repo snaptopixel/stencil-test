@@ -1,8 +1,10 @@
 :host {
-  font: var(--my-font)
+  --my-font: 24px 'Comic Sans MS', Helvetica, Arial;
+  --my-color: purple;
 }
 
 header {
+  font: var(--my-font);
   background: var(--my-color);
   color: white;
   height: 56px;
