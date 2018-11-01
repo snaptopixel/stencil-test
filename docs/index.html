@@ -9,21 +9,19 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta http-equiv="x-ua-compatible" content="IE=Edge"/>
 
-  <link href="/build/app.css" rel="stylesheet">
-  <script src="/build/app.js"></script>
+  <link href="build/app.css" rel="stylesheet">
+  <script src="build/app.js"></script>
 
-  <link rel="apple-touch-icon" href="/assets/icon/icon.png">
-  <link rel="icon" type="image/x-icon" href="/assets/icon/favicon.ico">
-  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" href="assets/icon/icon.png">
+  <link rel="icon" type="image/x-icon" href="assets/icon/favicon.ico">
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
-
   <app-root></app-root>
-
-<script data-build="2018-11-01T16:57:01">
+<script data-build="2018-11-01T17:06:12">
     if ('serviceWorker' in navigator && location.protocol !== 'file:') {
       window.addEventListener('load', function() {
-        navigator.serviceWorker.register('/snaptopixel/stencil-test/sw.js')
+        navigator.serviceWorker.register('/stencil-test/sw.js')
           .then(function(reg) {
             reg.onupdatefound = function() {
               var installingWorker = reg.installing;

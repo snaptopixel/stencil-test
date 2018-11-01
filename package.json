@@ -5,7 +5,7 @@
   "description": "Stencil App Starter",
   "husky": {
     "hooks": {
-      "pre-push": "npm run build"
+      "pre-push": "npm run build && git add . && git commit -am 'BUILD'"
     }
   },
   "scripts": {
