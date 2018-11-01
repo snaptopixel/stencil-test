@@ -1,0 +1,2 @@
+/*! Built with http://stenciljs.com */
+const{h:t}=window.App;class e{normalize(t){return t?t.substr(0,1).toUpperCase()+t.substr(1).toLowerCase():""}render(){if(this.match&&this.match.params.name)return t("div",{class:"app-profile"},t("p",null,"Hello! My name is ",this.normalize(this.match.params.name),". My name was passed in through a route param!"))}static get is(){return"app-profile"}static get encapsulation(){return"shadow"}static get properties(){return{match:{type:"Any",attr:"match"}}}static get style(){return".app-profile{padding:10px}"}}export{e as AppProfile};
